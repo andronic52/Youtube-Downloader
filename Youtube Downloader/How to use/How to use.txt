@@ -1,0 +1,61 @@
+							How to Use This Python YouTube Downloader with Pygame
+
+									Prerequisites
+
+Install Python: Make sure you have Python installed on your system.
+Install yt-dlp: Use the command below to install yt-dlp:
+pip install yt-dlp
+
+Install Pygame: Ensure Pygame is installed using the command:
+pip install pygame
+
+Install ffmpeg: You must have ffmpeg installed on your system.
+
+
+									Project Setup
+
+Assets Folder: The project relies on several images and audio files located in the ../Youtube Downloader/Assets/ folder. Ensure you have the following resources:
+
+Audio Files:
+interface-12-204786.mp3 (click sound)
+touchpad-click-158339.mp3 (hover sound)
+oldcomputerbootingup-16979.mp3 (downloading sound)
+success-fanfare-trumpets-6185.mp3 (success sound)
+funny-laughing-sound-effect-205565.mp3 (error sound)
+
+Image Files:
+home.png (main screen)
+audio.png (audio download button)
+video.png (video download button)
+both.png (both audio and video download button)
+downloading 1.png to downloading 4.png (animation frames)
+Error.png (error display)
+success.png (success display)
+
+								  Running the Application
+
+Configure Download URL: Change the URL to your desired YouTube video:
+python
+url = "https://youtu.be/YOURVIDEO"  # Replace with your own URL
+
+Download Options:
+Click the Audio button to download audio only (MP3 format).
+Click the Video button to download the video in 720p.
+Click the Both button to download both the highest-quality audio and video streams merged into an MP4 file.
+
+							      Audio and Animation Feedback
+
+Hovering over any button will trigger a sound effect.
+When you click a button to start downloading, the animation and sound effects will indicate the process.
+If the download is successful, a success image and sound will play.
+If there's an error, an error image and sound will be displayed.
+
+								      Customization
+
+You can modify the file formats and qualities in the ydl_opts dictionaries to suit your needs.
+Ensure the correct path to your ffmpeg installation in the ffmpeg_location option.
+You can change the images to what you want at canva.com and audios at Pixabay.com.
+
+									Quitting
+
+The application will automatically close after showing the success/error screen for a few seconds. You can also close it by clicking the close button.
