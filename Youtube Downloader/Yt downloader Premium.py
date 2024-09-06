@@ -25,7 +25,7 @@ success_sound = pygame.mixer.Sound('../Youtube Downloader/Assets/Audio/success-f
 error_sound = pygame.mixer.Sound('../Youtube Downloader/Assets/Audio/funny-laughing-sound-effect-205565.mp3')
 
 # URL to download
-url = "https://youtu.be/pLlW1S9rw0w?si=Z_4wzgfp8wdBK6RW"  # Test URL
+url = "https://youtu.be/YOURVIDEO"  # Test URL
 
 # Images
 home = pygame.image.load('../Youtube Downloader/Assets/Images/home.png')
